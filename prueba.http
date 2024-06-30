@@ -1,0 +1,10 @@
+
+GET http://localhost:5000/historial
+###
+
+POST http://localhost:5000/historial
+Content-Type: application/json
+
+{
+    "city" : "barcelona"
+}
